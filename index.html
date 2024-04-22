@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenPlate: A Sustainable Food Management System</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
+        header, section { margin-bottom: 40px; }
+        h1, h2 { color: #2c3e50; }
+        p { margin: 0 0 20px; }
+        img { max-width: 100%; height: auto; display: block; }
+        ul { list-style-type: none; padding: 0; }
+        li { margin-bottom: 10px; }
+        #contributors ul { columns: 2; -webkit-columns: 2; -moz-columns: 2; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GreenPlate: A Sustainable Food Management System</h1>
+        <p>In the modern day, it is difficult to adequately eat and shop in a sustainable way. 
+            Therefore, we have a two-sided goal. We both want to reduce food waste while we simultaneously promote efficient
+        use of the resources and food that someone already has. Users can upload recipes and ingredients and continously monitor the food they have,
+    expiration dates, and what recipes they can make. We wrap this all in an easy-to-use app with an account management system utilizing Firebase as our login
+and database system.</p>
+    </header>
+
+    <section id="design">
+        <h2>Design & Architecture</h2>
+        <p>We used a variety of OOP design schemes which have been documented below. Our architecture works by having users log in and then using a UID to connect their information to everything in the Firebase database seen below.</p>
+        <!-- Insert UML Diagram Image -->
+        <figure>
+            <img src="DomainModel.png" alt="DomainModel" style="max-width: 30%;">
+            <figcaption>This image describes our domain model and how different parts of the app interact with each other.</figcaption>
+        </figure>
+        <figure>
+            <img src="DCD.png" alt="DCD" style="max-width: 30%;">
+            <figcaption>This image describes our DCD and gives further insight into how different parts of our app interact.</figcaption>
+        </figure>
+        <figure>
+            <img src="Database.png" alt="Daabase" style="max-width: 30%;">
+            <figcaption>This image describes our database architecture.</figcaption>
+        </figure>
+    </section>
+
+    <section id="ui">
+        <h2>User Interface (UI)</h2>
+        <p>Visual tour of the app's interface with descriptions of the main functionalities.</p>
+        <!-- Insert screenshots of the app -->
+        <figure>
+            <img src="LogIn.png" alt="LogIn" style="max-width: 20%;">
+            <figcaption>Log In Screen</figcaption>
+        </figure>
+        <figure>
+            <img src="SignUp.png" alt="SignUp" style="max-width: 20%;">
+            <figcaption>Sign Up Screen</figcaption>
+        </figure>
+        <figure>
+            <img src="Recipe.png" alt="Recipe" style="max-width: 20%;">
+            <figcaption>Recipe Screen (check for proper ingredients for each recipe)</figcaption>
+        </figure>
+        <figure>
+            <img src="Ingredient.png" alt="Ingredient" style="max-width: 20%;">
+            <figcaption>Ingredient Input Screen</figcaption>
+        </figure>
+    </section>
+
+    <section id="functionality">
+        <h2>Functionality</h2>
+        <p>Link to a video demonstrating the application in action.</p>
+        <a href="your_video_link_here">Watch our Demo Video</a>
+    </section>
+
+    <section id="conclusions">
+        <h2>Conclusions and Reflections/Learning</h2>
+        <p>In the end, we created our app successfuly with the ability to manage recipes, ingredients, and accounts overall. This gives 
+            people the ability to monitor the foods they have and allows them to be more sustainable overall. All members of the group contributed
+            equally in building out this site and the app and all helped with the coding and design. Learning about how to collaborate effectively
+            was a lot of fun. The main challenge we faced was in using the Android Game Studio syntax. We knew what we wanted to build but reading through
+            documentation to figure out how to implement that was definitely not easy. Overall, this was a fun process. We learned a lot about object oriented building
+            practices and hope to take this knowledge further in our careers.
+        </p>
+    </section>
+
+    <section id="contributors">
+        <h2>Contributors</h2>
+        <p>All were great members of Group 42 and all helped in the creation of this site.</p>
+        <ul>
+            <li>Avaye Dawadi</li>
+            <li>Pau Sum</li>
+            <li>Anir Vetukuri</li>
+            <li>Roshan Arokiaraj</li>
+            <li>Sarvesh Sathish</li>
+            <li>Aarav Gupta</li>
+        </ul>
+    </section>
+
+</body>
+</html>
